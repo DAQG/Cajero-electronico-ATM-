@@ -26,13 +26,13 @@ public class Metodo {
         retiro=sc.nextDouble();
 
         if (retiro > totalDinero){
-            System.out.println("NO CUENT UN SALDO SUFICIENTE");
+            System.out.println("NO CUENTA UN SALDO SUFICIENTE");
         }
         else {
             // System.out.print("Ingrese la cantidad a retirar de la cuenta : ");
             //retiro=sc.nextDouble();
             saldo=totalDinero-retiro;
-            System.out.println("Su saldo en la cuent es : "+saldo);
+            System.out.println("Su saldo en la cuenta es : "+saldo);
         }
     }
 }
